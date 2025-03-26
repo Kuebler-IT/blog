@@ -1,0 +1,21 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+theme: "loveit"
+
+defaultContentLanguage: "de"
+defaultContentLanguageInSubdir: true
+disableDefaultLanguageRedirect: false
+disableLanguages: []
+
+languages:
+  de:
+    disabled: false
+    languageCode: "de-DE"
+    languageDirection: "ltr"
+    languageName: "Deutsch"
+  en:
+    disabled: false
+    languageCode: "en-US"
+    languageDirection: "ltr"
+    languageName: "English"

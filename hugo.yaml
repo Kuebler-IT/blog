@@ -1,8 +1,10 @@
-baseURL: "https://example.org/"
+baseURL: "https://blog.kuebler-it.de/"
 languageCode: "en-us"
-title: "My New Hugo Site"
-theme: "loveit"
+title: "Kuebler-IT Blog"
+theme: "PaperMod"
 
+enableRobotsTXT: true
+enableEmoji: true
 defaultContentLanguage: "de"
 defaultContentLanguageInSubdir: true
 disableDefaultLanguageRedirect: false
@@ -10,12 +12,69 @@ disableLanguages: []
 
 languages:
   de:
-    disabled: false
     languageCode: "de-DE"
     languageDirection: "ltr"
-    languageName: "Deutsch"
+    languageName: "Deutsch :de:"
+    timeZone: "Europe/Berlin"
+    menu:
+      main:
+        - name: Archiv
+          url: archives
+        - name: Suche
+          url: search
+        #- name: Über Mich
+        #  url: about-me
+    params:
+      homeInfoParams:
+        Title: Herzlich Willkommen
+        Content: >
+          Herzlich Willkommen auf dem Tech Blog von Kuebler-IT. Hier erscheinen
+          Blog Beiträge zu allen Themen in der IT. Technische Challenges, Aktuelle
+          Entwicklungs Eindrücke oder How To's zu Themen, die gerade bearbeitet werden.
   en:
-    disabled: false
+    disabled: true
     languageCode: "en-US"
     languageDirection: "ltr"
     languageName: "English"
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 10
+        - name: Search
+          url: search
+          weight: 10
+        - name: About Me
+          url: about-me
+          weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON  # required for search page
+
+params:
+  env: production
+  author: "Benjamin Kübler"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  displayFullLangName: true
+  social: true
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+
+  ShareButtons:
+    - linkedin
+    - facebook
+    - whatsapp
+    - telegram
+  homeInfoParams:
+    Title: Welcome to our blog post
+    Content: Can be Info, links, about...
+
+  socialIcons:
+    - name: github
+      title: View Source on GitHub
+      url: "https://github.com/Kuebler-IT"

@@ -2,6 +2,7 @@
 title: "Impressum"
 hideMeta: true
 disableShare: true
+robotsNoIndex: true
 ---
 
 Benjamin Kübler  
@@ -12,7 +13,7 @@ Goethestr. 7
 
 Telefon: +49 30 39712623  
 Telefax: +49 30 39712826  
-E-Mail: <contact@kuebler-it.de>
+E-Mail: contact (at) kuebler-it (punkt) de
 
 ## Umsatzsteuer-ID
 

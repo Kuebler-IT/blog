@@ -2,6 +2,7 @@
 title: "imprint"
 hideMeta: true
 disableShare: true
+robotsNoIndex: true
 ---
 
 Benjamin Kübler  
@@ -12,7 +13,7 @@ Goethestr. 7
 
 phone: +49 30 39712623  
 fax: +49 30 39712826  
-e-mail: <contact@kuebler-it.de>
+e-mail: contact (at) kuebler-it (dot) de
 
 ## VAT identification number
 

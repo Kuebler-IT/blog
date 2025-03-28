@@ -20,8 +20,13 @@ languages:
       main:
         - name: Archiv
           url: archives
+          weight: 20
         - name: Suche
           url: search
+          weight: 10
+        - name: Impressum
+          url: impressum
+          weight: 30
     params:
       description: "Der Tech Blog von Kuebler-IT. Beiträge aus der IT: Technische Herausforderungen, aktuelle Entwicklungseindrücke oder Anleitungen."
       homeInfoParams:
@@ -39,10 +44,13 @@ languages:
       main:
         - name: Archive
           url: archives
-          weight: 10
+          weight: 20
         - name: Search
           url: search
           weight: 10
+        - name: Imprint
+          url: imprint
+          wight: 30
     params:
       description: "The tech blog from Kuebler-IT. Articles from the world of IT: technical challenges, current development impressions or instructions."
       homeInfoParams:

@@ -35,7 +35,7 @@ found, I naturally wanted to do it myself. With my own hands. A new project
 idea started, a suitable blog software had to be written. Due to time
 constraints and other priorities, this has not realized until today.
 
-## Wann ist es Zeit für einen Blog?
+## When is it time for a blog?
 
 Almost 10 years later, the thought and desire to create a blog comes back.
 Driven by the volatile world of the Internet, where information and knowledge

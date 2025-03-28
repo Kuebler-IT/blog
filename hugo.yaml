@@ -22,20 +22,18 @@ languages:
           url: archives
         - name: Suche
           url: search
-        #- name: Über Mich
-        #  url: about-me
     params:
       homeInfoParams:
         Title: Herzlich Willkommen
         Content: >
           Herzlich Willkommen auf dem Tech Blog von Kuebler-IT. Hier erscheinen
-          Blog Beiträge zu allen Themen in der IT. Technische Challenges, Aktuelle
-          Entwicklungs Eindrücke oder How To's zu Themen, die gerade bearbeitet werden.
+          Blog Beiträge zu allen Themen in der IT. Technische Challenges,
+          aktuelle Entwicklungseindrücke oder How To's zu Themen, die gerade
+          bearbeitet werden.
   en:
-    disabled: true
     languageCode: "en-US"
     languageDirection: "ltr"
-    languageName: "English"
+    languageName: "English :us:"
     menu:
       main:
         - name: Archive
@@ -44,9 +42,14 @@ languages:
         - name: Search
           url: search
           weight: 10
-        - name: About Me
-          url: about-me
-          weight: 20
+    params:
+      homeInfoParams:
+        Title: Welcome
+        Content: >
+          Welcome to the Tech Blog of Kuebler-IT. Here you will find blog
+          posts on all topics in IT. Technical challenges, current
+          development impressions or How To's on topics that are currently
+          being worked on.
 
 outputs:
   home:
@@ -70,11 +73,8 @@ params:
     - facebook
     - whatsapp
     - telegram
-  homeInfoParams:
-    Title: Welcome to our blog post
-    Content: Can be Info, links, about...
 
   socialIcons:
     - name: github
-      title: View Source on GitHub
+      title: "Kuebler-IT GitHub"
       url: "https://github.com/Kuebler-IT"

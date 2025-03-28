@@ -1,0 +1,17 @@
+{
+    "cSpell.language": "en,de",
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:blog}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+    "cSpell.ignoreWords": [
+        "facebook",
+        "github",
+        "linkedin",
+        "whatsapp"
+    ],
+}

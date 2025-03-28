@@ -23,6 +23,7 @@ languages:
         - name: Suche
           url: search
     params:
+      description: "Der Tech Blog von Kuebler-IT. Beiträge aus der IT: Technische Herausforderungen, aktuelle Entwicklungseindrücke oder Anleitungen."
       homeInfoParams:
         Title: Herzlich Willkommen
         Content: >
@@ -43,6 +44,7 @@ languages:
           url: search
           weight: 10
     params:
+      description: "The tech blog from Kuebler-IT. Articles from the world of IT: technical challenges, current development impressions or instructions."
       homeInfoParams:
         Title: Welcome
         Content: >

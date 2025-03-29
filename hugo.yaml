@@ -24,6 +24,12 @@ languages:
         - name: Suche
           url: search/
           weight: 10
+        - name: Kategorien
+          url: categories/
+          weight: 15
+        - name: Tags
+          url: tags/
+          weight: 15
         - name: Datenschutz
           url: datenschutz/
           weight: 30
@@ -51,6 +57,12 @@ languages:
         - name: Search
           url: search/
           weight: 10
+        - name: Categories
+          url: categories/
+          weight: 15
+        - name: Tags
+          url: tags/
+          weight: 15
         - name: Privacy
           url: privacy/
           weight: 30
@@ -94,10 +106,6 @@ params:
     - name: github
       title: "Kuebler-IT GitHub"
       url: "https://github.com/Kuebler-IT"
-
-services:
-  googleAnalytics:
-    id: G-X613WTG1BV
 
 privacy:
   googleAnalytics:

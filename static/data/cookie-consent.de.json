@@ -1,0 +1,53 @@
+{
+    "consentModal": {
+        "title": "Wir nutzen Cookies",
+        "description": "Diese Webseite benutzt Tracking Cookies, um zu verstehen, wie Sie mit unserer Webseite interagieren. Diese werden nur mit Ihrer Zustimmung verwendet.",
+        "acceptAllBtn": "Alle akzeptieren",
+        "acceptNecessaryBtn": "Alle ablehnen",
+        "showPreferencesBtn": "Individuelle Einstellungen"
+    },
+    "preferencesModal": {
+        "title": "Verwalte Cookie Einstellungen",
+        "acceptAllBtn": "Alle akzeptieren",
+        "acceptNecessaryBtn": "Alle ablehnen",
+        "savePreferencesBtn": "Akzeptiere aktuelle Auswahl",
+        "closeIconLabel": "Schließe Einstellungen",
+        "sections": [
+            {
+                "title": "Cookie Nutzung",
+                "description": "Diese Webseite benutzt Tracking Cookies, um zu verstehen, wie Sie mit unserer Webseite interagieren. Diese werden nur mit Ihrer Zustimmung verwendet."
+            },
+            {
+                "title": "Analytics",
+                "description": "Cookies, die für die Analyse verwendet werden, helfen beim Sammeln von Daten, die es den Diensten ermöglichen zu verstehen, wie die Nutzer mit einem bestimmten Dienst interagieren. Diese Erkenntnisse ermöglichen es den Diensten, sowohl den Inhalt zu verbessern als auch bessere Funktionen zu entwickeln, die das Nutzererlebnis verbessern.",
+                "linkedCategory": "analytics",
+                "cookieTable": {
+                    "headers": {
+                        "name": "Name",
+                        "domain": "Dienst",
+                        "description": "Beschreibung",
+                        "expiration": "Gültigkeit"
+                    },
+                    "body": [
+                        {
+                            "name": "_ga",
+                            "domain": "Google Analytics",
+                            "description": "Cookie wird gesetzt von <a href=\"https://business.safety.google/adscookies/\">Google Analytics</a>",
+                            "expiration": "12 Tage"
+                        },
+                        {
+                            "name": "_gid",
+                            "domain": "Google Analytics",
+                            "description": "Cookie wird gesetzt von <a href=\"https://business.safety.google/adscookies/\">Google Analytics</a>",
+                            "expiration": "Sitzung"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Weitere Informationen",
+                "description": "Für alle Fragen in Bezug auf die Cookie-Einstellungen und Ihre Wahlmöglichkeiten können Sie uns jederzeit <a href=\"https://blog.kuebler-it.de/en/imprint\">kontaktieren</a>."
+            }
+        ]
+    }
+}

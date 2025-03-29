@@ -1,0 +1,53 @@
+{
+    "consentModal": {
+        "title": "We use cookies",
+        "description": "This website uses tracking cookies to understand how you interact with it. Those will be set only after consent.",
+        "acceptAllBtn": "Accept all",
+        "acceptNecessaryBtn": "Reject all",
+        "showPreferencesBtn": "Manage Individual preferences"
+    },
+    "preferencesModal": {
+        "title": "Manage cookie preferences",
+        "acceptAllBtn": "Accept all",
+        "acceptNecessaryBtn": "Reject all",
+        "savePreferencesBtn": "Accept current selection",
+        "closeIconLabel": "Close modal",
+        "sections": [
+            {
+                "title": "Cookie usage",
+                "description": "We use cookies to enhance your online experience."
+            },
+            {
+                "title": "Analytics",
+                "description": "Cookies used for analytics help collect data that allows services to understand how users interact with a particular service. These insights allow services both to improve content and to build better features that improve the user’s experience.",
+                "linkedCategory": "analytics",
+                "cookieTable": {
+                    "headers": {
+                        "name": "Name",
+                        "domain": "Service",
+                        "description": "Description",
+                        "expiration": "Expiration"
+                    },
+                    "body": [
+                        {
+                            "name": "_ga",
+                            "domain": "Google Analytics",
+                            "description": "Cookie set by <a href=\"https://business.safety.google/adscookies/\">Google Analytics</a>",
+                            "expiration": "Expires after 12 days"
+                        },
+                        {
+                            "name": "_gid",
+                            "domain": "Google Analytics",
+                            "description": "Cookie set by <a href=\"https://business.safety.google/adscookies/\">Google Analytics</a>",
+                            "expiration": "Session"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "More information",
+                "description": "For any queries in relation to the policy on cookies and your choices, please <a href=\"https://blog.kuebler-it.de/en/imprint\">contact us</a>."
+            }
+        ]
+    }
+}

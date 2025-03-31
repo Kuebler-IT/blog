@@ -2,6 +2,15 @@
 date: "2025-03-26T21:54:19+01:00"
 draft: false
 title: "Lass einen Blog starten..."
+categories:
+  - off-topic
+  - blogging
+tags:
+  - "blogging"
+  - "introduction"
+  - "beginnings"
+  - "difficult"
+  - "new era"
 ---
 ## Einleitung
 
@@ -54,3 +63,8 @@ es besonders wichtig, dieses Wissen, was man selbst recherchiert und am Ende
 durch eigene Umsetzung validiert bzw. geprüft hat, in seinen eigenen Worten
 der Öffentlichkeit zurückzugeben. So können die Scraper Bots diese
 Informationen nutzen, um selbst noch genauere und bessere Ergebnisse zu liefern.
+
+## Referenzen
+
+- [Die Geschichte des Bloggens](https://www.wpbeginner.com/de/research/history-of-blogging/)
+- Blogs der erwähnten Arbeitskollegen [blog.kuepper.nrw](https://blog.kuepper.nrw/) und [admin.brennt.net](https://admin.brennt.net/)

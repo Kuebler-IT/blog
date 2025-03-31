@@ -2,6 +2,15 @@
 date: "2025-03-26T21:54:19+01:00"
 draft: false
 title: "Lets start a Blog..."
+categories:
+  - off-topic
+  - blogging
+tags:
+  - "blogging"
+  - "introduction"
+  - "beginnings"
+  - "difficult"
+  - "new era"
 ---
 ## Introduction
 
@@ -51,3 +60,8 @@ particularly important to use this knowledge, which you have researched
 yourself and validated or tested through your own implementation, to put it
 back to the public in your own words. This way, the scraper bots can use this
 information to deliver even more accurate and better results themselves.
+
+## References
+
+- [A History of Blogging](https://www.wpbeginner.com/en/research/history-of-blogging/)
+- Blogs from mentioned former colleagues [blog.kuepper.nrw](https://blog.kuepper.nrw/) and [admin.brennt.net](https://admin.brennt.net/)

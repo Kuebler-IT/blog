@@ -1,6 +1,6 @@
 baseURL: "https://blog.kuebler-it.de/"
 languageCode: "en-us"
-title: "Kuebler-IT Blog"
+title: "Kuebler-IT - Blogging about IT"
 theme: "PaperMod"
 mainsections:
   - "posts"

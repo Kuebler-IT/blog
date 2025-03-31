@@ -122,6 +122,15 @@ params:
     - name: github
       title: "Kuebler-IT GitHub"
       url: "https://github.com/Kuebler-IT"
+    - name: facebook
+      title: "Facebook Company Profile"
+      url: "https://www.facebook.com/profile.php?id=61574884709737"
+    - name: phone
+      title: "WhatsApp Business Contact"
+      url: "https://wa.me/493039712623"
+    - name: linkedin
+      title: "LinkedIn Profile"
+      url: "https://linkedin.com/in/kueblerb"
 
 privacy:
   googleAnalytics:

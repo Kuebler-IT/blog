@@ -44,7 +44,7 @@ languages:
     params:
       description: "Der Technologie Blog von Kuebler-IT. Beiträge aus der IT: Technische Herausforderungen, aktuelle Entwicklungseindrücke oder Schritt für Schritt Anleitungen."
       homeInfoParams:
-        Title: Herzlich Willkommen
+        Title: Der Tech Blog von Kuebler-IT
         Content: >
           Herzlich Willkommen auf dem Tech Blog von Kuebler-IT. Hier erscheinen
           Blog Beiträge zu allen Themen in der IT. Technische Challenges,
@@ -77,7 +77,7 @@ languages:
     params:
       description: "The technology blog from Kuebler-IT. Articles from the world of IT: technical challenges, current development impressions or instructions."
       homeInfoParams:
-        Title: Welcome
+        Title: The Tech Blog from Kuebler-IT
         Content: >
           Welcome to the Tech Blog of Kuebler-IT. Here you will find blog
           posts on all topics in IT. Technical challenges, current
@@ -95,6 +95,8 @@ params:
   author: "Benjamin Kübler"
   keywords:
     - "blog"
+    - "blogging"
+    - "Tech Blog Kuebler-IT"
     - "Kuebler-IT"
     - "Technology"
     - "Tech Blog"

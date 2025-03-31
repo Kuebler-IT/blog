@@ -2,6 +2,11 @@ baseURL: "https://blog.kuebler-it.de/"
 languageCode: "en-us"
 title: "Kuebler-IT Blog"
 theme: "PaperMod"
+mainsections:
+  - "posts"
+taxonomies:
+  category: categories
+  tag: tags
 
 enableRobotsTXT: true
 enableEmoji: true
@@ -37,7 +42,7 @@ languages:
           url: impressum/
           weight: 40
     params:
-      description: "Der Tech Blog von Kuebler-IT. Beiträge aus der IT: Technische Herausforderungen, aktuelle Entwicklungseindrücke oder Anleitungen."
+      description: "Der Technologie Blog von Kuebler-IT. Beiträge aus der IT: Technische Herausforderungen, aktuelle Entwicklungseindrücke oder Schritt für Schritt Anleitungen."
       homeInfoParams:
         Title: Herzlich Willkommen
         Content: >
@@ -70,7 +75,7 @@ languages:
           url: imprint/
           weight: 40
     params:
-      description: "The tech blog from Kuebler-IT. Articles from the world of IT: technical challenges, current development impressions or instructions."
+      description: "The technology blog from Kuebler-IT. Articles from the world of IT: technical challenges, current development impressions or instructions."
       homeInfoParams:
         Title: Welcome
         Content: >
@@ -88,6 +93,17 @@ outputs:
 params:
   env: production
   author: "Benjamin Kübler"
+  keywords:
+    - "blog"
+    - "Kuebler-IT"
+    - "Technology"
+    - "Tech Blog"
+    - "Technology Blogging"
+    - "Information Technology Blog"
+    - "Kübler-IT Blog"
+    - "Kübler-IT"
+    - "kuebler-it"
+
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   displayFullLangName: true
